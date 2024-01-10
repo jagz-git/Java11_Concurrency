@@ -9,6 +9,16 @@ public class Main {
 
         CustomThread customThread = new CustomThread();
         customThread.start();
+
+        Thread newThread = new Thread(new RunThread());
+        newThread.start();
+
+        //Using Lambda expression
+        Thread t2 = new Thread(() -> System.out.println("Lambda Runnable!"));
+        t2.start();
+
+//        Callable
+
     }
 
 }

@@ -7,5 +7,8 @@ public class Main {
         t.start();
         System.out.println("Main: " + Thread.currentThread().getId());
 
+        CustomThread customThread = new CustomThread();
+        customThread.start();
+
     }
 }

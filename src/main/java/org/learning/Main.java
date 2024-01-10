@@ -9,6 +9,6 @@ public class Main {
 
         CustomThread customThread = new CustomThread();
         customThread.start();
-
     }
+
 }

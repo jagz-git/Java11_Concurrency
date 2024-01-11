@@ -28,7 +28,6 @@ public class Main {
         Thread newThread1 = new Thread(new RunThread());
         newThread1.start();
 
-
 //        Callable
 
     }
